@@ -21,12 +21,6 @@
     cursor:pointer;
     background-color:#f0f4f8;
 }
-/*.nex:hover{
-
-    background-color:black;
-    color:white;
-}*/
-
 body{
     display:flex;
     flex-direction: column;
