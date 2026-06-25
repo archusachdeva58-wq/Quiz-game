@@ -73,7 +73,7 @@ function next(){
         submit();
         return;
     }
-    display();
+    
 }
 let score=0;
 function Checkanswer(option,button){
@@ -90,6 +90,7 @@ answered=true;
     }
 }
 function submit(){
+    let answers = document.getElementById("answers");
     document.getElementById("question").innerText=`Your score is ${score}/${q.length}`;
     document.getElementById("answers").innerHTML="";
     document.getElementById("next").style.display = "none";
